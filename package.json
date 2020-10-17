@@ -1,9 +1,9 @@
 {
-	"name": "imagemin-gifsicle",
-	"version": "7.0.0",
-	"description": "Imagemin plugin for Gifsicle",
+	"name": "@unplgtc/imagemin-gifsicle",
+	"version": "7.0.0-fork",
+	"description": "Fork of the imagemin plugin for Gifsicle which removes max buffer size and includes more Gifsicle commands",
 	"license": "MIT",
-	"repository": "imagemin/imagemin-gifsicle",
+	"repository": "unplgtc/imagemin-gifsicle",
 	"funding": "https://github.com/imagemin/imagemin-gifsicle?sponsor=1",
 	"engines": {
 		"node": ">=10"
@@ -13,17 +13,6 @@
 	},
 	"files": [
 		"index.js"
-	],
-	"keywords": [
-		"compress",
-		"gif",
-		"gifsicle",
-		"gulpplugin",
-		"image",
-		"imageminplugin",
-		"img",
-		"minify",
-		"optimize"
 	],
 	"dependencies": {
 		"execa": "^4.0.0",
