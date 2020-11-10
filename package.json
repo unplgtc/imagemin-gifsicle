@@ -1,6 +1,6 @@
 {
 	"name": "@unplgtc/imagemin-gifsicle",
-	"version": "7.0.0-fork",
+	"version": "7.0.0-fork.2",
 	"description": "Fork of the imagemin plugin for Gifsicle which removes max buffer size and includes more Gifsicle commands",
 	"license": "MIT",
 	"repository": "unplgtc/imagemin-gifsicle",

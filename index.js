@@ -42,6 +42,10 @@ module.exports = (options = {}) => async input => {
  		args.push(`--resize=${options.resize}`);
  	}
 
+	if (options.resizeFit) {
+ 		args.push(`--resize-fit=${options.resizeFit}`);
+ 	}
+
  	if (options.resizeMethod) {
  		args.push(`--resize-method=${options.resizeMethod}`);
  	}
